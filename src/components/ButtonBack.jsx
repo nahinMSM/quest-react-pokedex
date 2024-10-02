@@ -1,3 +1,4 @@
+import React from 'react'
 import { useNavigate } from 'react-router-dom'
 import styled from 'styled-components'
 import  PokeBall  from '../assets/poke-ball.png'
@@ -6,11 +7,10 @@ export const ButtonToBack = () => {
   const navigate = useNavigate()
   return (
     <ButtonBack onClick={() => navigate('/')}>
-      <img src={PokeBall} alt='To Back' /><br />
+      <img src={PokeBall} alt='To Back' />
     </ButtonBack>
   )
 }
-
 
 export const ButtonToReload = () => {
   return (
