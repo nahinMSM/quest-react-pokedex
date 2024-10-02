@@ -1,15 +1,15 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Home from '../page/Home'
 import PokemonDetail from '../page/PokemonDetail'
 
 const AppRouter =()=> {
   return (
-    <BrowserRouter>
+    <Router basename="/quest-react-pokedex">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/pokemon/:id" element={<PokemonDetail />} />
       </Routes>
-    </BrowserRouter>
+    </Router>
   )
 }
 
