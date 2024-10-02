@@ -1,5 +1,5 @@
 import { useNavigate } from 'react-router-dom'
-import styled from '@babel/core'
+import styled from 'styled-components'
 import  PokeBall  from '../assets/poke-ball.png'
 
 export const ButtonToBack = () => {
