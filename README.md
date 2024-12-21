@@ -2,18 +2,15 @@
 
 Esta aplicação exibe uma lista de Pokémons e permite ao usuário visualizar detalhes sobre cada um deles. Além disso, há um alternador de tema entre claro e escuro e um filtro para selecionar Pokémons por tipo.
 
-<p align="center">
-  <img src="./src/assets/desktop-tema-claro.png" alt="Imagem 1" width="300" />
-  <img src="./src/assets/desktop-tema-escuro.png" alt="Imagem 2" width="300" style="margin-left:20px" />
-</p>
-<p align="center" style="margin-top:40px">
-  <img src="./src/assets/detalhe-tema-claro.png" alt="Imagem 1" width="300" />
-  <img src="./src/assets/detalhe-tema-escuro.png" alt="Imagem 2" width="300" style="margin-left:20px" />
-</p>
-<p align="center" style="margin-top:40px">
-  <img src="./src/assets/mobile-tema-claro.png" alt="Imagem 1" width="300" />
-  <img src="./src/assets/mobile-tema-escuro.png" alt="Imagem 2" width="300" style="margin-left:20px" />
-</p>
+<div align="center">
+  
+  ![capitura_de_tela](https://github.com/user-attachments/assets/28f64e21-ca7a-4a08-8e5c-e6afce38d026)
+  
+</div>
+<br>
+
+[Clik aqui para visitar o APP](https://nahinmsm.github.io/quest-react-pokedex/)
+
 
 
 ## Funcionalidades
